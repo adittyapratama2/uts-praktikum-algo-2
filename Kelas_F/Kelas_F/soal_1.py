@@ -1,0 +1,6 @@
+print ("hitung luas lingkaran")
+phi = (3.14)
+jari_jari = float(input("masukkan jari-jari lingkaran: "))
+luas = (phi * jari_jari ** 2)
+print (luas)
+print (f"maka luas jari-jari lingkaran adalah '{luas}' selesai!")
