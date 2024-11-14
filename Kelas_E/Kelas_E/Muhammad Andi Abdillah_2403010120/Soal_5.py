@@ -1,0 +1,15 @@
+#nama:Muhammad Andi Abdillah
+#nim:2403010120
+
+#Mengambil Karakter dari Kata
+
+#spesifikasi
+kata = input("Masukkan kata: ")
+posisi_awal = int(input("Masukkan posisi awal: "))
+panjang_karakter = int(input("Masukkan panjang karakter: "))
+
+#substring
+substring = kata[posisi_awal:posisi_awal + panjang_karakter]
+
+#hasil
+print("Substring:", substring)
