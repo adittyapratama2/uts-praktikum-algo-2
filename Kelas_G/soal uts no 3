@@ -1,0 +1,7 @@
+kata_pertama = input("Masukan kata pertama : universitas ")
+kata_kedua = input("Masukan kata kedua : perjuangan ")
+kata_ketiga = input("Masukan kata ketiga : tasikmalaya ")
+
+kalimat_gabungan = kata_pertama +" "+ kata_kedua +" "+ kata_ketiga
+
+print("Hasil penggabungan : ", kalimat_gabungan)
